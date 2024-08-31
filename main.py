@@ -12,7 +12,7 @@ def main():
             if event.type == pygame.QUIT:
                 return
 
-        pygame.Surface.fill(screen, (0, 0, 0))
+        screen.fill("black")
         pygame.display.update()
 
 if __name__ == "__main__":
