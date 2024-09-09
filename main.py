@@ -8,7 +8,6 @@ from shot import Shot
 from constants import *
 
 """ TODO:
-
     Add a scoring system
     Implement multiple lives and respawning
     Add an explosion effect for the asteroids
@@ -22,6 +21,7 @@ from constants import *
     Add a speed power-up
     Add bombs that can be dropped
 """
+
 def main():
     pygame.init()
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
